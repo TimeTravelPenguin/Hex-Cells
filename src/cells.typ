@@ -308,15 +308,6 @@
       visited.push((current-cell, neighbour))
 
       connections.push(connection)
-
-      // FIXME: verts need to be added to the center!
-
-      // let cond_r = connection.to.coord.axial.r > connection.from.coord.axial.r
-      // let cond_q = connection.to.coord.axial.q > connection.from.coord.axial.q
-
-      // if (cond_r or cond_q) {
-      //   connections.push(connection)
-      // }
     }
   }
 
